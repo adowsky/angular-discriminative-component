@@ -1,0 +1,10 @@
+<div>
+  <app-specified-component-a
+    *ngIf="model.type == 'A'"
+    [model]="model"
+  ></app-specified-component-a>
+  <app-specified-component-b
+    *ngIf="model.type == 'B'"
+    [model]="model"
+  ></app-specified-component-b>
+</div>
